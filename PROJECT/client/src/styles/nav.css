@@ -1,0 +1,20 @@
+nav {
+  flex: 1 1 10px;
+  width: 100%;
+  background-color: lightblue;
+}
+nav ul.navbar {
+  margin: 0rem !important;
+  list-style-type: none !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  justify-content: space-around;
+}
+nav ul.navbar li.nav-item a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+nav ul.navbar li.nav-item a:hover {
+  color: rgb(177, 96, 96);
+}/*# sourceMappingURL=nav.css.map */

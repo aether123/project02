@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+hr {
+  margin: 0.5rem;
+  border: 0.1px solid rgb(219, 212, 212);
+}
+
+body div .register {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+body div .register .form {
+  border: 1px solid rgba(192, 192, 192, 0.3);
+}
+body div .register .form .form-group {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+body div .register .form .form-group label {
+  font-size: 2rem;
+  padding: 0.5rem 0rem;
+}
+body div .register .form .form-group input {
+  font-size: 1.5rem;
+}
+body div .register .form .form-group input::-moz-placeholder {
+  opacity: 0.5;
+}
+body div .register .form .form-group input::placeholder {
+  opacity: 0.5;
+}
+body div .register .form .btn {
+  position: relative;
+  left: 50%;
+  margin: 0.5rem;
+  transform: translate(-50%, -10%);
+  font-size: 1.5rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  background-color: #e7e7e7;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+body div .register div {
+  background-color: white;
+}
+body div .register div div.alert-danger {
+  font-size: 1rem;
+  color: red;
+  border: 0px;
+}/*# sourceMappingURL=register.css.map */

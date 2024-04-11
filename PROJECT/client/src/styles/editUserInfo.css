@@ -1,0 +1,76 @@
+body form.userForm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+body form.userForm table.user-info {
+  border: 1px solid gray;
+}
+body form.userForm table.user-info tbody tr {
+  width: 100%;
+}
+body form.userForm table.user-info tbody tr th {
+  padding: 0.1rem 0.2rem;
+  width: 40%;
+  text-align: left;
+  white-space: nowrap;
+  font-size: 1.25rem;
+  border-bottom: 1px solid gray;
+}
+body form.userForm table.user-info tbody tr td {
+  padding: 0.2rem 0.2rem;
+  border-bottom: 1px solid gray;
+  font-size: 1.25rem;
+}
+body form.userForm table.user-info tbody tr td input.username {
+  width: 30%;
+}
+body form.userForm table.user-info tbody tr td div.gender input {
+  width: 20%;
+}
+body form.userForm table.user-info tbody tr td div.gender label {
+  padding: 0rem 0.3rem;
+  font-size: 1.25rem;
+}
+body form.userForm table.user-info tbody tr td div.activityLevel select.activityLevel {
+  width: 90%;
+}
+body form.userForm table.user-info tbody tr td div.error-mesg {
+  white-space: nowrap;
+  font-size: 1.25rem;
+  color: red;
+}
+body form.userForm table.user-info tbody tr td div.highProteinDiet input {
+  width: 20%;
+}
+body form.userForm table.user-info tbody tr td div.highProteinDiet label {
+  padding: 0rem 0.3rem;
+  font-size: 1.25rem;
+}
+body form.userForm table.user-info tbody tr td.birthdate {
+  padding: 0.2rem 0rem;
+}
+body form.userForm table.user-info tbody tr td.birthdate div {
+  display: inline-block;
+  padding: 0rem 0.2rem;
+  width: 25%;
+}
+body form.userForm table.user-info tbody tr td.birthdate div input.birthdate-year {
+  width: 100%;
+}
+body form.userForm table.user-info tbody tr td.birthdate div select {
+  width: 100%;
+}
+body form.userForm table.user-info tbody tr td.birthdate div.year {
+  width: 35%;
+}
+body form.userForm table.user-info tbody tr td.birthdate div.month {
+  width: 35%;
+}
+body form.userForm button {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  border-radius: 5px;
+  background-color: #e7e7e7;
+}/*# sourceMappingURL=editUserInfo.css.map */

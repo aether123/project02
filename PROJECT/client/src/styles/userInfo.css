@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body main.userInfo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 1px solid black;
+}
+body main.userInfo section.form-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+body main.userInfo section.form-group div {
+  height: 50px;
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+body main.userInfo section.form-group div p {
+  font-size: 1.5rem;
+}
+body main.userInfo section.form-group div.th {
+  width: 45%;
+  text-align: left;
+}
+body main.userInfo section.form-group div.td {
+  width: 55%;
+  text-align: left;
+}/*# sourceMappingURL=userInfo.css.map */

@@ -1,0 +1,44 @@
+section.meals {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+section.meals h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+section.meals h3 {
+  font-size: 1.75rem;
+}
+section.meals div {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin: 0.1rem;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+section.meals div p {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 630px) {
+  section.meals {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  section.meals h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  section.meals h3 {
+    font-size: 1.25rem;
+  }
+  section.meals div {
+    border: 0.1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  }
+  section.meals div p {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=meals.css.map */

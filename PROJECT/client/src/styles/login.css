@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+hr {
+  margin: 0.5rem;
+  border: 0.1px solid rgb(219, 212, 212);
+}
+
+body div .login {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+body div .login .local-login {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 1px solid rgba(192, 192, 192, 0.3);
+}
+body div .login .local-login .form-group {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+body div .login .local-login .form-group label {
+  font-size: 2rem;
+  padding: 0.5rem 0rem;
+}
+body div .login .local-login .form-group input {
+  font-size: 1.5rem;
+}
+body div .login .local-login .form-group input::-moz-placeholder {
+  opacity: 0.5;
+}
+body div .login .local-login .form-group input::placeholder {
+  opacity: 0.5;
+}
+body div .login .local-login .form-group-btn {
+  margin: 0.5rem;
+}
+body div .login .local-login .form-group-btn button {
+  position: relative;
+  left: 48%;
+  margin: 0.3rem;
+  transform: translate(-50%, 10%);
+  background-color: #e7e7e7;
+  color: black;
+  border: 1px solid black;
+  font-size: 1.5rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body div .login .btn-google {
+  margin: 0.5rem;
+}
+body div .login .btn-google button {
+  position: relative;
+  left: 45%;
+  transform: translate(-35%, 20%);
+  padding: 0.2rem 0.5rem;
+  background-color: #e7e7e7;
+  color: black;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+body div .login .btn-google img {
+  padding: 0.1rem 0.5rem;
+}/*# sourceMappingURL=login.css.map */

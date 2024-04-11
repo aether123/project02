@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body div.textRecord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body div.textRecord table {
+  width: 100%;
+  border: 1px solid gray;
+}
+body div.textRecord table tbody tr {
+  width: 100%;
+}
+body div.textRecord table tbody tr th {
+  padding: 0rem 0.2rem;
+  width: 40%;
+  font-size: 1.25rem;
+  border-bottom: 1px solid gray;
+}
+body div.textRecord table tbody tr td {
+  border-bottom: 1px solid gray;
+  font-size: 1.25rem;
+}
+body div.textRecord table tbody tr td input {
+  width: 70%;
+  margin-left: 0.1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+body div.textRecord table tbody tr td input.mealtime {
+  width: 10px;
+}
+body div.textRecord table tbody tr td label {
+  padding: 0rem 0.2rem;
+}
+body div.textRecord button {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  border-radius: 5px;
+  background-color: #e7e7e7;
+}
+body div.textRecord div.errorMessage {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: red;
+}/*# sourceMappingURL=textRecord.css.map */
